@@ -44,7 +44,7 @@ export const server_calls = {
         });
     },
     delete: async(id:string) => {
-        const response = await fetch(`https://josias-car-collection.glitch.me/cars/${id}`,{
+        const response = await fetch(`https://josias-car-collection.glitch.me/api/cars/${id}`,{
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',
