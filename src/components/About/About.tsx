@@ -16,7 +16,7 @@ const useAbout = makeStyles({
     main_text: {
         textAlign: 'center',
         position: 'relative',
-        top: '40%',
+        top: '41%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
         color: 'white',
